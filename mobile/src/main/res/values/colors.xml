@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dividerColor">#48cafd</color>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="backgroundColor" type="color">#f8f8f8</item>
+
+    <item name="tab_active" type="color">#FFFFFF</item>
+    <item name="tab_inactive" type="color">#00FFFFFF</item>
+
+    <item name="button_grey" type="color">#e7e7e7</item>
+    <item name="background_grey" type="color">#f8f8f8</item>
+    <item name="text_description_color" type="color">#3c3d3c</item>
+    <item name="notification_background_grey" type="color">#f3f3f3</item>
+    <item name="divider_grey" type="color">#dbdbdb</item>
+    <item name="text_backgroud" type="color">#f4f4f4</item>
+    <item name="white_overlay_8x" type="color">#FFFFFF</item>
+    <item name="black" type="color">#000000</item>
+    <item name="time_grey" type="color">#aaaaaa</item>
+    <item name="black_transparent" type="color">#50000000</item>
+    <item name="transparent_black" type="color">#20000000</item>
+    <item name="transperent_black" type="color">#80000000</item>
+    <item name="text_grey" type="color">#6a6a6a</item>
+    <item name="dark_grey" type="color">#6a6a6a</item>
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="blue_chat" type="color">#0080e2</item>
+    <item name="border_grey" type="color">#e8e8e8</item>
+    <item name="icon_grey" type="color">#7d7d7d</item>
+    <item name="rippleColor" type="color">#7d7d7d</item>
+    <color name="white_otp">#40ffffff</color>
+    <color name="bottom_option_blue">#1076e4</color>
+
+    <item name="light_gray" type="color">#dfdfdf</item>
+
+    <color name="red">#FF0000</color>
+
+    <color name="appColor">@color/green</color><!--#00bb1b-->
+    <color name="green">#6aa84f</color>
+    <color name="like_dislike">#848484</color>
+    <color name="green_cross_button">@color/green</color>
+    <color name="orange">#ffa500</color>
+    <color name="create_group_checkbox_bg">#f4f4f4</color>
+    <color name="anonymous_icon_bg">#e8e8e8</color>
+
+    <color name="white_transparent">#90e8e3de</color>
+    <color name="white_transparency">#b9ffffff</color>
+    <color name="white_90">#90ffffff</color>
+    <color name="white_40">#40ffffff</color>
+
+    <!--Default-->
+    <color name="textcolor">#000000</color>
+    <color name="toolbarBackGroundColor">#FFFFFF</color>
+    <color name="toolbarTextColor">@color/green</color>
+    <color name="divider">#b2b2b2</color>
+
+    <color name="tag_background">#ebebeb</color>
+    <color name="tag_stroke">#d9d9d9</color>
+    <color name="tag_text">#1f1f1f</color>
+    <color name="background_attachment">#55666666</color>
+
+    <color name="recording_wave_color">#FF33B5E5</color>
+    <color name="highlight_wave_color">@color/green</color>
+
+    <color name="highlight_requst_expert">@color/green</color>
+    <color name="accent_500">#FFF000</color>
+    <color name="accent_700">#FFFF00</color>
+
+
+    <color name="activity_a">#FFFF00</color>
+    <color name="activity_b">@color/green</color>
+    <color name="activity_c">#33B5E5</color>
+    <color name="activity_d">#FF0000</color>
+    <color name="color_activity_a">#FF0000</color>
+    <color name="color_activity_b">#00FF00</color>
+    <color name="color_activity_c">#0000FF</color>
+    <color name="color_activity_d">#FFFF00</color>
+
+</resources>

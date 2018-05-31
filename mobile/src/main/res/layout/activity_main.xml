@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_kotlin_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kotlin_activity" />
+
+        <Button
+            android:id="@+id/bt_dialog_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_fragment" />
+
+        <Button
+            android:id="@+id/bt_alert_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alert_dialog" />
+
+        <Button
+            android:id="@+id/bt_share_in_my_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_in_my_app" />
+        <Button
+            android:id="@+id/bt_life_cycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/life_cycler" />
+        <Button
+            android:id="@+id/bt_without_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/without_library" />
+
+        <Button
+            android:id="@+id/bt_launch_modes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/launch_modes" />
+
+        <Button
+            android:id="@+id/bt_utilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/utilities" />
+
+        <Button
+            android:id="@+id/bt_viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewpagers" />
+
+        <Button
+            android:id="@+id/bt_recylerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_recyclerview" />
+
+        <Button
+            android:id="@+id/bt_tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_tablayout" />
+
+        <Button
+            android:id="@+id/bt_bottom_tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_bottom_tablayout" />
+
+        <Button
+            android:id="@+id/bt_navigation_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigation_drawer" />
+
+        <Button
+            android:id="@+id/bt_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maps" />
+
+        <Button
+            android:id="@+id/bt_retrofitapi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_retrofit_api" />
+
+        <Button
+            android:id="@+id/bt_download_enqueue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/download_enqueue" />
+
+        <Button
+            android:id="@+id/bt_broadcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/broadcast_screen" />
+
+
+        <Button
+            android:id="@+id/bt_view_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_model_demo" />
+
+        <Button
+            android:id="@+id/bt_jobs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobs_demo" />
+
+
+        <Button
+            android:id="@+id/bt_sockets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sockets" />
+
+        <Button
+            android:id="@+id/bt_social_logins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/social_logins" />
+
+        <Button
+            android:id="@+id/bt_databases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/databases" />
+
+        <Button
+            android:id="@+id/bt_animations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/animations" />
+
+
+        <Button
+            android:id="@+id/bt_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_types_ads" />
+
+        <Button
+            android:id="@+id/bt_deeplinking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deeplinking" />
+
+    </LinearLayout>
+
+</ScrollView>

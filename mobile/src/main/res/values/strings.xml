@@ -1,0 +1,87 @@
+<resources>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">News</string>
+    <string name="title_notifications">Alerts</string>
+
+    <string name="app_name">All Utils Methods App</string>
+    <string name="open_recyclerview">RecyclerView</string>
+    <string name="open_tablayout">Tablayout</string>
+    <string name="open_bottom_tablayout">Bottom Tablayout</string>
+    <string name="open_retrofit_api">Retrofit API</string>
+    <string name="share_in_my_app">Share in My App</string>
+    <string name="broadcast_screen">Broadcast Screen</string>
+    <string name="local_broadcast">Local Broadcast</string>
+    <string name="sticky_charging_broadcast">Sticky charging broadcast</string>
+    <string name="dialog_fragment">Dialog Fragment</string>
+    <string name="view_model_demo">View Model Demo</string>
+    <string name="txt_exchange_rate">Exchanges</string>
+    <string name="txt_equipment">Equipmet</string>
+    <string name="evernote_jobs">Evernote Jobs</string>
+    <string name="firebase_jobs">Firebase jobs</string>
+    <string name="jobs_demo">Jobs Demo</string>
+
+
+    <string name="search">Search</string>
+    <string name="shortcut_search_disabled">Search not available</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maps">Maps</string>
+    <string name="simple_map">Simple Map</string>
+    <string name="cluster_marker_map_demo">Cluster Marker Map Demo</string>
+    <string name="cluster_custom_marker_map">Cluster Custom Marker Map</string>
+    <string name="title_activity_cluster_maps">Map</string>
+    <string name="title_activity_cluster_custom_marker_maps">Map</string>
+
+    <string name="viewpagers">Viewpagers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="utilities">Utilities</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="simple_recyclerview">Simple Recyclerview</string>
+    <string name="grid_recycler">Grid Recycler</string>
+    <string name="staggerd">Staggerd</string>
+    <string name="recycler_with_header_viewpager">Recycler with Header ViewPager</string>
+    <string name="recycler_with_header">Recycler with Header</string>
+    <string name="download_enqueue">Download Enqueue</string>
+    <string name="title_activity_google_ads">GoogleAdsActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="sockets">Sockets</string>
+    <string name="social_logins">Social Logins</string>
+    <string name="databases">Databases</string>
+    <string name="animations">Animations</string>
+    <string name="kotlin_activity">Kotlin Activity</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="all_types_ads">All types Ads</string>
+    <string name="deeplinking">DeepLinking</string>
+    <string name="hetrogenous_recyclerview">Hetrogenous Recyclerview</string>
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="life_cycler">All Life Cycle</string>
+    <string name="without_library">Without Library</string>
+    <string name="launch_modes">Launch modes</string>
+    <string name="standard_mode">Standard Mode</string>
+    <string name="single_top">Single Top</string>
+    <string name="single_instance">Single instance</string>
+    <string name="single_task">Single Task</string>
+
+    <string-array name="image_extensions">
+        <item>application/jpeg</item>
+        <item>application/jpg</item>
+        <item>application/bmp</item>
+        <item>application/png</item>
+        <item>application/gif</item>
+    </string-array>
+
+</resources>

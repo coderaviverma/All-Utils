@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.maps.MapOptionsActivity">
+
+    <Button
+        android:id="@+id/bt_simple_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_map"/>
+
+    <Button
+        android:id="@+id/bt_cluster_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cluster_marker_map_demo"/>
+
+    <Button
+        android:id="@+id/bt_cluster_custom_marker_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cluster_custom_marker_map"/>
+</LinearLayout>

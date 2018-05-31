@@ -1,0 +1,183 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.aw.avi.allutilsmethodsapp"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+    }
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "12g"
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/commons-io.properties'
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".debug"
+            debuggable true
+        }
+
+
+    }
+//    flavorDimensions  "mode"
+
+//    productFlavors {
+//        free {
+//            applicationIdSuffix ".demo"
+//            versionNameSuffix "-demo"
+//            dimension "mode"
+//        }
+//        paid {
+//            applicationIdSuffix ".full"
+//            versionNameSuffix "-full"
+//            dimension "mode"
+//        }
+//    }
+
+}
+
+dependencies {
+
+    //GOOGLE Library [START]
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:${project.GOOGLE_SUPPORT_VERSION}"
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation "com.android.support:design:${project.GOOGLE_SUPPORT_VERSION}"
+    implementation "com.android.support:recyclerview-v7:${project.GOOGLE_SUPPORT_VERSION}"
+    implementation "com.android.support:cardview-v7:${project.GOOGLE_SUPPORT_VERSION}"
+    implementation "com.android.support:support-v4:${project.GOOGLE_SUPPORT_VERSION}"
+    implementation "com.google.android.gms:play-services-ads:${project.GOOGLE_PLAYSERVICES_VERSION}"
+
+    //maps
+    implementation "com.google.android.gms:play-services-maps:${project.GOOGLE_PLAYSERVICES_VERSION}"
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
+
+    //Mutlidex
+    implementation 'com.android.support:multidex:1.0.2'
+
+    //fcm
+    implementation "com.google.firebase:firebase-messaging:${project.GOOGLE_PLAYSERVICES_VERSION}"
+
+    //Vector graphics library
+    implementation "com.android.support:support-vector-drawable:${project.GOOGLE_SUPPORT_VERSION}"
+
+    //GSON Parser
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    //Arch
+    //Room Wrapper
+    implementation 'android.arch.persistence.room:runtime:1.0.0'
+    annotationProcessor 'android.arch.persistence.room:compiler:1.0.0'
+// RxJava support for Room
+    implementation 'android.arch.persistence.room:rxjava2:1.0.0'
+
+    // ViewModel and LiveData
+    implementation "android.arch.lifecycle:extensions:1.0.0"
+    annotationProcessor "android.arch.lifecycle:compiler:1.0.0"
+
+    // Paging
+    implementation "android.arch.paging:runtime:1.0.0-alpha4-1"
+    //GOOGLE Library [END]
+
+    //Font DI
+    implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+    //RX and Retrofit
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.5'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.8.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+
+    //RX Permission
+    implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+
+    //Butterknife
+    implementation "com.jakewharton:butterknife:${project.BUTTERKNIFE_VERSION}"
+    annotationProcessor "com.jakewharton:butterknife-compiler:${project.BUTTERKNIFE_VERSION}"
+
+    //Job scheduler
+    implementation 'com.evernote:android-job:1.2.1'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+
+    //Image Download Lib
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    //fake name generator
+    implementation 'com.github.javafaker:javafaker:0.14'
+
+    //Create PDF
+    implementation 'com.itextpdf:itextpdf:5.5.10'
+
+    //Socket programming
+    implementation 'com.github.nkzawa:socket.io-client:0.3.0'
+
+    //Image Loading Libraries
+    implementation 'com.github.bumptech.glide:glide:4.4.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    //ICE Pick
+//    implementation 'com.github.frankiesardo:icepick:2.3.6'
+//    annotationProcessor 'com.github.frankiesardo:icepick-processor:2.3.6'
+
+    //Dagger2
+    implementation 'com.google.dagger:dagger:2.13'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.13'
+
+    //Testing
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    //Logging Libraries
+    implementation 'com.orhanobut:logger:2.1.1'
+    implementation 'com.jakewharton.timber:timber:4.6.0'
+
+    //Deeplinking
+//    compile('io.branch.sdk.android:library:2.+') {
+//        exclude module: 'answers-shim'
+//    }
+
+    //Wear
+    wearApp project(':wear')
+//    implementation 'com.google.android.gms:play-services-wearable:+'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
