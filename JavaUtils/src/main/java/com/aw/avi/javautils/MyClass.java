@@ -6,6 +6,8 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.Vector;
 
 public class MyClass {
@@ -25,6 +27,7 @@ public class MyClass {
 
         //Vector
         vectorDemo();
+
 
     }
 
@@ -70,13 +73,17 @@ public class MyClass {
 
         linkedList.add(3, 5);
 
+
+        List list = new ArrayList(linkedList);
+
+
         iteratorLoop(linkedList);
 
     }
 
     /**
      * Vector Demo
-     *
+     * <p>
      * Increase capacity by double by default it is 10 capacity.
      * from version 1.0
      */
@@ -139,4 +146,10 @@ public class MyClass {
     private static void printData(Object data) {
         System.out.println(data);
     }
+
+    private void setCollection() {
+
+        Set<String> value = new TreeSet<>();
+    }
 }
+

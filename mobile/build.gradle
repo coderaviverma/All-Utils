@@ -173,6 +173,15 @@ dependencies {
 //        exclude module: 'answers-shim'
 //    }
 
+    //ExoPlayer
+    implementation 'com.google.android.exoplayer:exoplayer:2.8.2'
+    implementation 'com.sprylab.android.texturevideoview:texturevideoview:1.0.2'
+    implementation 'com.google.android.exoplayer:extension-rtmp:2.8.2'
+
+    //Ads
+    implementation 'com.google.ads.interactivemedia.v3:interactivemedia:3.8.7'
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+
     //Wear
     wearApp project(':wear')
 //    implementation 'com.google.android.gms:play-services-wearable:+'

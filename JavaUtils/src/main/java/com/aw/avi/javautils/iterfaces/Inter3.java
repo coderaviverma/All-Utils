@@ -6,6 +6,7 @@ package com.aw.avi.javautils.iterfaces;
 
 public interface Inter3 {
 
+     String value="Shahshi";
     void inter3Method();
 
     void sameMethod();

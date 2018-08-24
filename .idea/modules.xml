@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/All Utils.iml" filepath="$PROJECT_DIR$/All Utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAlgorithms/JavaAlgorithms.iml" filepath="$PROJECT_DIR$/JavaAlgorithms/JavaAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaPatterns/JavaPatterns.iml" filepath="$PROJECT_DIR$/JavaPatterns/JavaPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaUtils/JavaUtils.iml" filepath="$PROJECT_DIR$/JavaUtils/JavaUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KotlinDemo/KotlinDemo.iml" filepath="$PROJECT_DIR$/KotlinDemo/KotlinDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleBlockChainDemo/SimpleBlockChainDemo.iml" filepath="$PROJECT_DIR$/SimpleBlockChainDemo/SimpleBlockChainDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/things/things.iml" filepath="$PROJECT_DIR$/things/things.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wear/wear.iml" filepath="$PROJECT_DIR$/wear/wear.iml" />
+    </modules>
+  </component>
+</project>

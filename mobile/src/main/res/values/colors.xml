@@ -77,4 +77,9 @@
     <color name="color_activity_c">#0000FF</color>
     <color name="color_activity_d">#FFFF00</color>
 
+
+    <!--Ads-->
+    <color name="blue_midtone">#2196f3</color>
+    <color name="strong_yellow">#FFF000</color>
+
 </resources>

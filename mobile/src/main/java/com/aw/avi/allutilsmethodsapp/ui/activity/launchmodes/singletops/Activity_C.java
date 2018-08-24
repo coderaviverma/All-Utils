@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.aw.avi.allutilsmethodsapp.R;
+
 public class Activity_C extends BaseActivity {
 
     private static final String TAG=Activity_C.class.getSimpleName();

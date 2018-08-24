@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kotlin.ui.KotlinBasicActivity">
+    tools:context="com.aw.avi.allutilsmethodsapp.kotlin.ui.ExoplayerAdsActivity">
 
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/exoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
 </android.support.constraint.ConstraintLayout>

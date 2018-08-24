@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="ButtonTheme" parent="AppTheme">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="android:background">@drawable/button_background</item>-->
+        <!--<item name="android:textColor">@color/textColor</item>-->
+        <!--<item name="android:layout_margin">@dimen/tendp</item>-->
+        <!--<item name="android:elevation" tools:ignore="NewApi">@dimen/threedp</item>-->
+    <!--</style>-->
+
+
 </resources>
